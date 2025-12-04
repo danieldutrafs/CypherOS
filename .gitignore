@@ -1,0 +1,39 @@
+# ---------------------------------------------------------------- #
+# ARQUIVOS DE BUILD E COMPILAÇÃO (JAVA/MAVEN/GRADLE)
+# ---------------------------------------------------------------- #
+# Pasta de saída padrão do Maven (onde ficam os .class e .jar)
+/target/
+# Pasta de saída do Gradle
+/build/
+
+# Ignorar o diretório .mvn, mas incluir o wrapper jar necessário
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+
+# Arquivos de classes compiladas e artefatos
+*.class
+*.jar
+*.war
+*.ear
+# Arquivos de log gerados pela aplicação
+*.log
+
+# ---------------------------------------------------------------- #
+# CONFIGURAÇÕES DA IDE (INTELLIJ IDEA, VS CODE)
+# ---------------------------------------------------------------- #
+.idea/
+.vscode/
+
+# Arquivos de módulo/projeto específicos de IDEs (para o caso de estarem fora das pastas .idea)
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+
+# ---------------------------------------------------------------- #
+# ARQUIVOS DO SISTEMA OPERACIONAL E OUTROS
+# ---------------------------------------------------------------- #
+.DS_Store
+Thumbs.db

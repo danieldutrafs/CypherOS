@@ -1,17 +1,12 @@
+package com.cypheros;
 import java.util.Scanner;
 import com.cypheros.model.Tarefa;
 
-
-
-/**
- *
- * @author Caua0
+/**@author Caua0
  */
+
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

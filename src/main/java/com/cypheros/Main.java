@@ -1,3 +1,4 @@
+package com.cypheros;
 import com.cypheros.model.Agenda;
 
 import java.util.Scanner;

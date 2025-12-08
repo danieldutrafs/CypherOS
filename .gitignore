@@ -1,39 +1,52 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-.kotlin
+# ---------------------------------------------------------------- #
+# Arquivos de Build e Binários (Java/Maven/Gradle)
+# ---------------------------------------------------------------- #
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+# Diretórios de compilação
+/bin/
+/target/
+/out/
+/build/
+*.class
+
+# Arquivos JAR/WAR/ZIP/EAR gerados
+*.jar
+*.war
+*.ear
+*.zip
+
+# ---------------------------------------------------------------- #
+# Arquivos do Banco de Dados Local (SQLite)
+# ---------------------------------------------------------------- #
+
+# O arquivo do banco de dados SQLite deve ser ignorado, pois será gerado
+# localmente por cada desenvolvedor.
+*.db
+*.sqlite
+*.sqlite3
+
+# ---------------------------------------------------------------- #
+# Arquivos de IDEs (Ambientes de Desenvolvimento)
+# ---------------------------------------------------------------- #
+
+# IntelliJ IDEA (Mais comum em projetos Java)
+.idea/
 *.iws
 *.iml
 *.ipr
+/out/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
+# Eclipse
 .project
-.settings
-.springBeans
-.sts4-cache
+.classpath
+.settings/
+*.log
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# VS Code
 .vscode/
 
-### Mac OS ###
+# ---------------------------------------------------------------- #
+# Arquivos do Sistema Operacional
+# ---------------------------------------------------------------- #
 .DS_Store
+Thumbs.db
